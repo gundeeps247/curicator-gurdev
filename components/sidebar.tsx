@@ -7,7 +7,7 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ links }) => {
   return (
     <aside className="fixed w-64 bg-gray-800 text-white h-screen p-4 ">
-      <h2 className="text-xl font-bold mb-4">Curricula</h2>
+      <h2 className="text-xl font-bold mb-4">Curricator</h2>
       <nav>
         <ul>
           {links.map((link, index) => (
